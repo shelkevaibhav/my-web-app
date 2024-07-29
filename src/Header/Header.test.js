@@ -5,11 +5,11 @@ describe('Header component tests',()=>{
     it("check header text",()=>{
         render(<Header></Header>)
        const eleRef=screen.getByTestId('header')
-       expect(eleRef.textContent).toBe('My web page')
+       expect(eleRef.textContent).toBe('My first REACT page')
     })
     test("check header text length",()=>{
         render(<Header></Header>)
         const eleRef = screen.getByTestId('header')
-        expect(eleRef.textContent).toHaveLength(11)
+        expect(eleRef.textContent).toHaveLength(19)
     })
 })

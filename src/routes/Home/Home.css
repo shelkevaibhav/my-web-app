@@ -1,0 +1,8 @@
+.image-wrapper {
+    position: relative; /* Required for the `layout="fill"` to work */
+    width: 100%; /* Make the wrapper full width */
+    height: 500px; /* Set the desired height */
+    overflow: hidden; /* Hide overflowed parts of the image */
+  }
+  
+  
