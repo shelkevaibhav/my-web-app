@@ -1,0 +1,39 @@
+{
+  "name": "my-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --watchAll",
+    "etoe":"playwright test --ui"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "my-first-lib-vaibhavit": "^2.0.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "@playwright/test": "^1.45.2",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20.14.11",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "init": "^0.1.2",
+    "install": "^0.13.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "npm": "^10.8.2",
+    "playwright": "^1.45.2"
+  }
+}

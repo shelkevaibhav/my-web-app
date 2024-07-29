@@ -1,0 +1,20 @@
+[
+    {
+        "path":"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+        "althText" :"First slide",
+        "title":"First slide label",
+        "subtile":"Nulla vitae elit libero, a pharetra augue mollis interdum."
+    },
+    {
+        "path":"https://static.toiimg.com/thumb/msid-111864556,imgsize-72174,width-400,resizemode-4/111864556.jpg",
+        "althText" :"Second slide",
+        "title":"Second slide label",
+        "subtile":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "path":"https://images.hindustantimes.com/img/2024/07/19/550x309/Priyanka_Gandhi_Vadra_1721395033332_1721395033570.jpg",
+        "althText" :"Third slide",
+        "title":"Third slide label",
+        "subtile":"Praesent commodo cursus magna, vel scelerisque nisl consectetur."
+    }
+]
