@@ -9,25 +9,25 @@ function Home() {
   return (
     <Carousel data-bs-theme="dark">
       {
-        data.map (({path,althText,title,subtile},index)=>{
-          return <Carousel.Item key={index}>
-          <Image
-            className="d-block w-100"
-            src={path}
-            alt={althText}
-            height='500px'
-          />
-          <Carousel.Caption>
-            <h5>{title}</h5>
-            <p>{subtile}</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        })
+        data.map(({ path, altText, title, subtitle }, index) => (
+          <Carousel.Item key={index}>
+            <div className="image-wrapper">
+              <Image
+                src={path}
+                alt={altText}
+                layout="fill" // Ensure the image fills the container
+                objectFit="cover" // Ensure the image covers the container area
+              />
+            </div>
+            <Carousel.Caption>
+              <h5>{title}</h5>
+              <p>{subtitle}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))
       }
-   
     </Carousel>
   );
 }
 
-
-export default Home
+export default Home;
