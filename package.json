@@ -8,15 +8,19 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watchAll",
-    "etoe":"playwright test --ui"
+    "etoe": "playwright test --ui"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "my-first-lib-vaibhavit": "^2.0.0",
     "next": "14.2.5",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-redux": "^9.1.2",
+    "redux-logger": "^3.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.24.9",
